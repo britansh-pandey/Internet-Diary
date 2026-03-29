@@ -351,7 +351,7 @@ import { gsap } from 'gsap';
 import useAudio from './hooks/useAudio'; 
 
 // Components & Sections Imports
-import HUD from './components/HUD';
+import HUD from './components/hud';
 import Hero from './sections/Hero';
 import Era1969 from './sections/Era1969';
 import DiaryPage from './sections/DiaryPage';
