@@ -228,7 +228,7 @@ const Era2021 = ({ onComplete, userName }) => {
       <div className="text-layer text-center space-y-6 md:space-y-12 z-10 max-w-3xl px-4 md:px-6">
         
         <h2 className="phase-header tracking-[0.6em] md:tracking-[1.2em] uppercase text-[8px] md:text-[10px] font-black italic opacity-0">
-          // RECOVERY_PHASE_05 //
+      {/* RECOVERY_PHASE_05 */}
         </h2>
 
         <div className="relative py-4 md:py-8">
