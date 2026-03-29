@@ -228,7 +228,7 @@
 
 // export default Era1980;
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { gsap } from 'gsap';
 
 const Era1980 = ({ onComplete, setGlobalProgress = () => {} }) => {
