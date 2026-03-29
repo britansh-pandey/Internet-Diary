@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { gsap } from 'gsap';
 
 const Diary2000 = ({ onComplete }) => {
-  const [showButtonText, setShowButtonText] = useState(false);
+  const [_showButtonText, setShowButtonText] = useState(false);
 
   useEffect(() => {
     const tl = gsap.timeline();
