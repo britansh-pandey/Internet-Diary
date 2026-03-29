@@ -7,7 +7,7 @@ import { Howl } from 'howler';
 
 const useAudio = () => {
   const wipeSound = useRef(null);
-  const ambientSound = useRef(null);
+  const _ambientSound = useRef(null);
   const typewriterSound = useRef(null);
   const globalMusic = useRef(null); // among-us logic added here
 
