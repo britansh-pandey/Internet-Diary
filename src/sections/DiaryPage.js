@@ -102,7 +102,7 @@ const DiaryPage = ({ onComplete }) => {
     }, 35);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [ fullText]);
 
   const handleNextEra = () => {
     gsap.to(".paper-sheet", { 
